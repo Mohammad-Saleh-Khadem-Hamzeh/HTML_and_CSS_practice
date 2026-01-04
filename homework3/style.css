@@ -1,0 +1,9 @@
+#mother {
+    display: flex;
+    gap: 10px;
+}
+div span {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
