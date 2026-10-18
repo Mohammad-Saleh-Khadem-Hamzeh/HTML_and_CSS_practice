@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+}
+
+body{
+
+}
+
+.lg{
+    width: 400px;
+    height: 400px;
+    background-color: chartreuse;
+    border-radius: 12px;
+    text-align: center;
+}
+form{
+    align-content: center;
+}
