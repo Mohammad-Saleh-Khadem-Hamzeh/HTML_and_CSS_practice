@@ -1,18 +1,81 @@
-*{
-    margin: 0px;
-}
-
 body{
-
+    margin: 0;
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;     
+    align-items: center;
+    background: url(./wp9764093.jpg);       
 }
 
 .lg{
     width: 400px;
     height: 400px;
-    background-color: chartreuse;
+    background-color: rgb(32, 79, 208);
     border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
     text-align: center;
+    border: solid 2px white;
+    /* line-height: 20px; */
 }
-form{
-    align-content: center;
+h3{
+    font-size: 23px;
 }
+#faname{
+    display: block;
+    margin-bottom: 6px;
+    padding-right: 5px;
+    color: rgb(209, 223, 18);
+}
+#fname{
+    border-radius: 12px;
+    width: 330px;
+    border: 0px;
+    height: 22px;
+    padding-right: 10px;
+    margin-bottom: 12px;
+}
+#laname{
+    display: block;
+    margin-bottom: 6px;
+    padding-right: 5px;
+    color: rgb(209, 223, 18);
+}
+#lname{
+    border-radius: 12px;
+    width: 330px;
+    border: 0px;
+    height: 22px;
+    padding-right: 10px;
+    margin-bottom: 12px;
+}
+#ophone{
+    display: block;
+    margin-bottom: 6px;
+    padding-right: 5px;
+    color: rgb(209, 223, 18);
+}
+#phone{
+    border-radius: 12px;
+    width: 330px;
+    border: 0px;
+    height: 22px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+#oghnon{
+    display: inline-block;
+    margin-bottom: 12px;
+    color: rgb(209, 223, 18);
+}
+button{
+    width: 330px;
+    border: 0px;
+    border-radius: 12px;
+    margin-top: 50px;
+    height: 30px;
+}
+

@@ -8,18 +8,15 @@
 </head>
 <body>
     <div class="lg">
-        <form action="#">
-            <h3>ثبت نام</h3>
-            <label for="fname">نام:</label><br>
-            <input type="fname" id="fname" name="fname" required>
-            <br>
-            <label for="lname">نام خانوادگی:</label><br>
+        <h3>فرم ثبت نام مجموعه</h3>
+        <form action="#">   
+            <label for="fname" id="faname">نام:</label>
+            <input type="fname" id="fname" name="fname" required placeholder="محمد">
+            <label for="lname" id="laname">نام خانوادگی:</label>
             <input type="text" id="lname" name="lname" required>
-            <br>
-            <label for="phone">شماره تلفن:</label><br>
-            <input type="number" id="phone" name="phone" required>
-            <br>
-            <label for="ghnon">من تمام قوانین  و ضوابط سایت را می پذیرم.</label>
+            <label for="phone" id="ophone">شماره تلفن:</label>
+            <input type="phone" id="phone" name="phone" required placeholder="09xxxxxxxxx"><br>
+            <label for="ghnon" id="oghnon">من تمام قوانین  و ضوابط سایت را می پذیرم.</label>
             <input type="checkbox" id="ghnon" name="ghnon" required>
             <br>
             <button>ثبت نام</button>
